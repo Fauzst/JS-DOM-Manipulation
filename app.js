@@ -29,10 +29,11 @@ console.log(allContainer);
 
 
 //Create Element
-
+//Below, I created a constant named ul and li. First, it selected tag ul to be passed on the const ul. Secondly, the we created a li element on the const li
 const ul = document.querySelector('ul');
 const li = document.createElement('li');
 //Creates an empty li
+//Now after we created that, the ul which was selected by the query selector was appended with the newly created li.
 ul.append(li);
 //Adding something inside the li
 const firstListItem = document.querySelector('.list-items')
@@ -53,5 +54,19 @@ li.classList.add('list-items');
 console.log(li.classList.contains('list-items'));
 
 //Remove elements
-li.remove();
-li.remove();
+li.remove() //this removes 'Cardo' or the const li we made earlier
+
+
+
+/* 
+LIST OF METHODS
+-document.getElementById('idhere');
+-document.getElementByClassName('classnamehere);
+-document.querySelector(' ');
+-document.querySelectorAll(' ');
+-document.createElement('type of element here')
+-.setAttribute('att', name of att)
+-.removeAttribute('att')
+-.classList.add('name of class')
+-.classList.contains('name of class here')
+*/
