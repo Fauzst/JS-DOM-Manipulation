@@ -76,13 +76,22 @@ console.log(ul.previousSibling);
 console.log(ul.nextSibling);
 /*
 LIST OF METHODS
+>Getting Elements
 -document.getElementById('idhere');
 -document.getElementByClassName('classnamehere);
 -document.querySelector(' ');
 -document.querySelectorAll(' ');
+>Setting and Creating Element
 -document.createElement('type of element here')
 -.setAttribute('att', name of att)
 -.removeAttribute('att')
 -.classList.add('name of class')
 -.classList.contains('name of class here')
+> Traversing the DOM
+-.parentNode
+-.childNode
+-.firstChild
+-.lastChild
+-.previousSibling
+-.nextSibling
 */

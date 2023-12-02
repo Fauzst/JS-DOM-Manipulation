@@ -1,0 +1,38 @@
+html {
+    background: rgb(0,0,0);
+    background: linear-gradient(61deg, rgba(0,0,0,1) 0%, rgba(253,187,45,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-1, .box-2, .box-3 {
+    border: 1px solid white;
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+h1 {
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 15px;
