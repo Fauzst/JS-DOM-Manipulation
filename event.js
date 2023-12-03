@@ -18,7 +18,7 @@ function changeBgColor() {
 
 newBackgroundColor.addEventListener("mouseover", changeBgColor);
 
-
+//for attendance
 /*LIST OF FUNCTIONS
 -.addEventListener
 -"click"
