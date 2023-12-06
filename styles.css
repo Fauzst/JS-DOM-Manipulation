@@ -27,13 +27,4 @@ html {
     padding: 5px 10px;
 }
 
-.boxes {
-    border: 1px solid white;
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    -ms-flex-align: end;
-    
-
-}
 
