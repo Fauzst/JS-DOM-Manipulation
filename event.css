@@ -62,3 +62,22 @@ button {
     height: 200px;
     width: 150px;
 }
+
+#sports {
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#sports li {
+    border: 1px solid white;
+    padding: 5px;
+    width: 70%;
+    margin: 5px auto;
+    list-style: none;
+    border-radius: 5pxl;
+
+}

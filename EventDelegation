@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <link rel="stylesheet" href="event.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style></style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="boxes box-1">
+                <h1 id="heading">Example 1</h1>
+                <button onclick="alert('I Love JavaScript')">Enter</button>
+            </div>
+            <div class="boxes box-2">
+                <h1 id="heading">Example 2</h1>
+                <button class="btn-2">Enter</button>
+            </div>
+            <div class="boxes box-3">
+                <h1 id="heading">Example 2</h1>
+                <button>Enter</button>
+            </div>
+        </div>
+    <script src="event.js"></script>
+    </body>
+</html>
+
