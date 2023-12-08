@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function(){
     btn.addEventListener('click', function(){
         let random = Math.floor(Math.random() * quotes.length);
         console.log(random);
-        quote.innerHTML = quotes[random].quote;
-        person.innerHTML = quotes[random].person;
+        quote.innerText = 'tit' + quotes[random].quote + '\"';
+        person.innerText = quotes[random].person;
     })
 })
